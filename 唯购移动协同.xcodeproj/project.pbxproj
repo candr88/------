@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA92363F16648A10009B5D67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA92363E16648A10009B5D67 /* UIKit.framework */; };
+		CA92364116648A10009B5D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA92364016648A10009B5D67 /* Foundation.framework */; };
+		CA92364316648A10009B5D67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA92364216648A10009B5D67 /* CoreGraphics.framework */; };
+		CA92364916648A10009B5D67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA92364716648A10009B5D67 /* InfoPlist.strings */; };
+		CA92364B16648A10009B5D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA92364A16648A10009B5D67 /* main.m */; };
+		CA92364F16648A10009B5D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA92364E16648A10009B5D67 /* AppDelegate.m */; };
+		CA92365216648A10009B5D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA92365116648A10009B5D67 /* ViewController.m */; };
+		CA92365516648A10009B5D67 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA92365316648A10009B5D67 /* ViewController_iPhone.xib */; };
+		CA92365816648A10009B5D67 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA92365616648A10009B5D67 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA92363A16648A10009B5D67 /* 唯购移动协同.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "唯购移动协同.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA92363E16648A10009B5D67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA92364016648A10009B5D67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA92364216648A10009B5D67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA92364616648A10009B5D67 /* 唯购移动协同-Info.plist */ = {isa = PBXFileReference; path = "唯购移动协同-Info.plist"; sourceTree = "<group>"; };
+		CA92364816648A10009B5D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA92364A16648A10009B5D67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA92364C16648A10009B5D67 /* 唯购移动协同-Prefix.pch */ = {isa = PBXFileReference; path = "唯购移动协同-Prefix.pch"; sourceTree = "<group>"; };
+		CA92364D16648A10009B5D67 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA92364E16648A10009B5D67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA92365016648A10009B5D67 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CA92365116648A10009B5D67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA92365416648A10009B5D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CA92365716648A10009B5D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA92363716648A10009B5D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92363F16648A10009B5D67 /* UIKit.framework in Frameworks */,
+				CA92364116648A10009B5D67 /* Foundation.framework in Frameworks */,
+				CA92364316648A10009B5D67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA92362F16648A10009B5D67 = {
+			isa = PBXGroup;
+			children = (
+				CA92364416648A10009B5D67 /* 唯购移动协同 */,
+				CA92363D16648A10009B5D67 /* Frameworks */,
+				CA92363B16648A10009B5D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA92363B16648A10009B5D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA92363A16648A10009B5D67 /* 唯购移动协同.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA92363D16648A10009B5D67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA92363E16648A10009B5D67 /* UIKit.framework */,
+				CA92364016648A10009B5D67 /* Foundation.framework */,
+				CA92364216648A10009B5D67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA92364416648A10009B5D67 /* 唯购移动协同 */ = {
+			isa = PBXGroup;
+			children = (
+				CA92364D16648A10009B5D67 /* AppDelegate.h */,
+				CA92364E16648A10009B5D67 /* AppDelegate.m */,
+				CA92365016648A10009B5D67 /* ViewController.h */,
+				CA92365116648A10009B5D67 /* ViewController.m */,
+				CA92365316648A10009B5D67 /* ViewController_iPhone.xib */,
+				CA92365616648A10009B5D67 /* ViewController_iPad.xib */,
+				CA92364516648A10009B5D67 /* Supporting Files */,
+			);
+			path = "唯购移动协同";
+			sourceTree = "<group>";
+		};
+		CA92364516648A10009B5D67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA92364616648A10009B5D67 /* 唯购移动协同-Info.plist */,
+				CA92364716648A10009B5D67 /* InfoPlist.strings */,
+				CA92364A16648A10009B5D67 /* main.m */,
+				CA92364C16648A10009B5D67 /* 唯购移动协同-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA92363916648A10009B5D67 /* 唯购移动协同 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA92365B16648A10009B5D67 /* Build configuration list for PBXNativeTarget "唯购移动协同" */;
+			buildPhases = (
+				CA92363616648A10009B5D67 /* Sources */,
+				CA92363716648A10009B5D67 /* Frameworks */,
+				CA92363816648A10009B5D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "唯购移动协同";
+			productName = "唯购移动协同";
+			productReference = CA92363A16648A10009B5D67 /* 唯购移动协同.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA92363116648A10009B5D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CA92363416648A10009B5D67 /* Build configuration list for PBXProject "唯购移动协同" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA92362F16648A10009B5D67;
+			productRefGroup = CA92363B16648A10009B5D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA92363916648A10009B5D67 /* 唯购移动协同 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA92363816648A10009B5D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92364916648A10009B5D67 /* InfoPlist.strings in Resources */,
+				CA92365516648A10009B5D67 /* ViewController_iPhone.xib in Resources */,
+				CA92365816648A10009B5D67 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA92363616648A10009B5D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92364B16648A10009B5D67 /* main.m in Sources */,
+				CA92364F16648A10009B5D67 /* AppDelegate.m in Sources */,
+				CA92365216648A10009B5D67 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA92364716648A10009B5D67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA92364816648A10009B5D67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA92365316648A10009B5D67 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA92365416648A10009B5D67 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CA92365616648A10009B5D67 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA92365716648A10009B5D67 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA92365916648A10009B5D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA92365A16648A10009B5D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA92365C16648A10009B5D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "唯购移动协同/唯购移动协同-Prefix.pch";
+				INFOPLIST_FILE = "唯购移动协同/唯购移动协同-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA92365D16648A10009B5D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "唯购移动协同/唯购移动协同-Prefix.pch";
+				INFOPLIST_FILE = "唯购移动协同/唯购移动协同-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA92363416648A10009B5D67 /* Build configuration list for PBXProject "唯购移动协同" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA92365916648A10009B5D67 /* Debug */,
+				CA92365A16648A10009B5D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA92365B16648A10009B5D67 /* Build configuration list for PBXNativeTarget "唯购移动协同" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA92365C16648A10009B5D67 /* Debug */,
+				CA92365D16648A10009B5D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA92363116648A10009B5D67 /* Project object */;
+}
