@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "LoginViewController.h"
 
 @implementation AppDelegate
 
@@ -19,11 +19,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+         self.viewController=[[[LoginViewController alloc]initWithNibName:@"LoginViewController_Iphone" bundle:nil] autorelease];
+      
     } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
+          self.viewController=[[[LoginViewController alloc] initWithNibName:@"LoginViewController_IPad" bundle:nil] autorelease];;
     }
+    [UIApplication sharedApplication].applicationIconBadgeNumber=0;//初始化
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
